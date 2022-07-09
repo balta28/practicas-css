@@ -1,0 +1,120 @@
+* {
+    margin: 2px;
+    padding: 3px;
+    box-sizing: border-box;
+}
+
+header {
+    text-align: center;
+    font-style: italic;
+    font-size: 25px;
+    background-color: blanchedalmond;
+}
+
+section h2 {
+    text-align: center;
+    font-size: 25px;
+    font-style: italic;
+    color: green;
+}
+
+.card {
+    background-color: azure;
+    width: 400px;
+    height: auto;
+    margin: 0 auto;
+    text-align: justify;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 5px 10px 10px green;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 20px;
+
+}
+
+body {
+    background: url('https://d500.epimg.net/cincodias/imagenes/2019/10/17/lifestyle/1571308099_533301_1571308337_noticia_normal.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+a {
+    font-size: 25px;
+    text-align: center;
+    display: block;
+    background-color: lime;
+    text-decoration: none;
+
+}
+
+.imagen:hover {
+    filter: grayscale(100%);
+}
+
+.imagen {
+    filter: grayscale(0);
+    padding-left: 45px;
+
+}
+
+a:hover {
+    background-color: brown;
+}
+
+.contenedor {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+section h1 {
+    text-align: center;
+    color: azure;
+    font-size: 30px;
+    font-style: italic;
+}
+
+table {
+    width: 80%;
+    margin-left: 200px;
+    background: white;
+    font-size: 20px;
+    border: 3px solid black;
+
+}
+
+table caption {
+    background-color: antiquewhite;
+    color: black;
+    font-size: 30px;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 10px 10px 5px black;
+    margin-bottom: 15px;
+}
+
+table thead {
+    background-color: black;
+    color: azure;
+}
+
+table tr th,
+table tr td {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 1px solid #ddd;
+}
+
+table tr:nth-child(even) {
+    background-color: gray;
+}
+
+table td:nth-child(3) {
+    text-align: center;
+
+}
+
+tbody:hover {
+    background-color: aqua;
+}

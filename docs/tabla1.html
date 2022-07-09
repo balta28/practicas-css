@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <table>
+        <caption>Titulo de tabla</caption>
+
+        <thead>
+            <tr>
+                <th rowspan="2">Tabla Avanzada</th>
+                <th colspan="2">Cabecera Múltiples Columnas</th>
+            </tr>
+            <tr>
+                <th>Primera Col. Cab.</th>
+                <th>Segunda Col. Cab.</th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <td colspan="3">Pie de tabla.</td>
+            </tr>
+        </tfoot>
+        <tbody>
+            <tr>
+                <th>Fila 1</th>
+                <td>Fila 1 Columna 1</td>
+                <td>Fila 1 Columna 2</td>
+            </tr>
+            <tr>
+                <th>Fila 2</th>
+                <td>Fila 2 Columna 1</td>
+                <td>Fila 2 Columna 2</td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table2">
+        <caption>Resultados Globales</caption>
+        <tr>
+            <th colspan="4">Curso 2019/2010</th>
+        </tr>
+        <tr>
+            <th colspan="2">1º ESO - A</th>
+            <th colspan="2">1º ESO - A</th>
+        </tr>
+        <tr>
+            <td>Aprobados</td>
+            <td>Suspensos</td>
+            <td>Aprobados</td>
+            <td>Suspensos</td>
+        </tr>
+        <tr>
+            <td>68%</td>
+            <td>57%</td>
+            <td>32%</td>
+            <td>43%</td>
+        </tr>
+    </table>
+    <section>
+        <h2>Listas</h2>
+        <div class="contenido">
+            <ul class="lista">
+                <li>elemento de la lista</li>
+                <li>elemento de la lista</li>
+                <li>elemento de la lista</li>
+                <li>elemento de la lista</li>
+                <li>elemento de la lista</li>
+                <li>elemento de la lista</li>
+                <li>elemento de la lista</li>
+                <li>elemento de la lista</li>
+                <li>elemento de la lista</li>
+            </ul>
+        </div>
+
+    </section>
+    <section>
+        <h2>Formularios</h2>
+        <div class="contenedorform">
+            <h3><i class="fa-brands fa-google"></i> Registrarme</h3>
+            <form action="#">
+                <div class="_input">
+                    <label for="nombre"><i class="fas fa-smile"></i> Nombre</label>
+                    <input type="text" name="nombre" id="nombre">
+                </div>
+                <div class="_input">
+                    <label for="apellido"> <i class="fas fa-smile"></i> Apellido</label>
+                    <input type="text" name="apellido" id="Apellido" required>
+                </div>
+                <div class="_input">
+                    <label for="clave"> <i class="fa fa-lock" aria-hidden="true"></i> Clave</label>
+                    <input type="password" name="clave" id="" required>
+                </div>
+                <div class="check">
+                    <input type="checkbox" name="aceptar" id="">acepto los terminos
+                </div>
+                <div class="_input">
+                    <button type="submit" class="butonblack"><i class="fa-brands fa-centercode"></i> ingresar</button>
+                    <button type="submit" class="buttonazul"><i class="fa-brands fa-facebook"></i> Facebook</button>
+                    <button type="submit" class="butonaqua"><i class="fa-brands fa-twitter"></i> twiter</button>
+                </div>
+
+            </form>
+        </div>
+    </section>
+</body>
+
+</html>
